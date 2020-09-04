@@ -9,16 +9,8 @@ package jptvr18;
  *
  * @author pupil
  */
-public class JPTVR18 {
-
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        // TODO code application logic here
-        App app = new App();
-        app.run();
-        
+class App{
+    public void run() {
+        System.out.println("hello!");
     }
-    
 }
